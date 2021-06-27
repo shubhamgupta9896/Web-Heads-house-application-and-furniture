@@ -68,7 +68,10 @@ body{
     width:35px;
     height:35px;
     margin-bottom:20px;
-
+}
+.decoration__items__description__link{
+    text-decoration: none;
+    color:rgb(19, 19, 30);
 }
 .decoration__items__description{
     font-weight:10;
@@ -381,8 +384,12 @@ margin-bottom:5px;}
     .navbar__container__others{
         justify-content:space-evenly;
         gap:30px;
-        height:350px;
+        height:270px;
         margin-top:0;
+    }
+    
+    .header__banner__container{
+        height:300px;
     }
     .decoration__items{
         width:50px;
@@ -447,11 +454,11 @@ margin-bottom:5px;}
     }
     .top__item__image:hover{
       z-index:5;
-      border:5px solid black;
+      border:2px solid black;
     }
     .top__item__image{
         border-radius:10px;
-        transform:scale(1.3,1.3);
+        transform:scale(1.5,1.5);
         
     }
     /* grid container */
@@ -468,7 +475,7 @@ margin-bottom:5px;}
         width:50%;
     }
     .comment{
-        height:300px;
+        height:350px;
         display:flex;
         justify-content: center;
         align-items:center;
@@ -476,7 +483,101 @@ margin-bottom:5px;}
     .comment__text p{
         font-size:50px;
     }
-    .about__heading{
-        
+    .about__heading h1,.timings h1,.contacts h1 {
+        height:35px;
+        font-size:2em;
+        margin-bottom:50px;
     }
+    .partners{
+        height:740px;
+    }
+    .timings__data,.list__brands{
+        font-size:20px;
+        font-weight:10;
+    }
+    
+    .mark{
+        height:30px;
+    }
+    .about__text{
+        font-size:17px;
+    }
+    
+}
+@media (min-width:1200px){
+    .navbar__container__others{
+        height:200px;
+    }
+   .header__banner__container{
+       height:370px;
+   }
+   .container__description{
+       height:60px;
+       font-size:60px;
+   }
+   .item h4{
+       font-size:1.4em;
+       text-align:center;
+   }
+   .image__container1{
+       width:250px;
+       gap:30px;
+       justify-content: space-evenly;
+   }
+   .grid__container{
+       flex-direction: row;
+       align-items:center;
+       width:100%;
+   }
+   .statement__text{
+       line-height:90px;
+       font-size:70px;
+       color:rgb(5, 5, 114);
+   }
+   .grid-box{
+       width:80%;
+   }
+   .new__products{
+       margin:140px 0;
+       height:700px;
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items:center;
+   }
+   .product__container{
+       height:600px;
+       width:80%;
+   }
+   .new__products h1{
+       line-height:70px;
+       font-size:60px;
+       color:rgb(5, 5, 114);
+       font-weight:100;
+   }
+   .comment{
+       height:450px;
+   }
+   .comment__text{
+       font-size:90px;
+   }
+   .mark{
+      
+       height:50px;
+   }
+   .about{
+       display:flex;
+       align-items:center;
+
+   }
+   .about__heading,.timings{
+       font-size:25px;
+       font-weight:100;
+       margin-bottom:45px;
+
+   }
+
+   .about__text{
+       font-size:20px;
+   }
 }
