@@ -1,0 +1,250 @@
+body,html{
+    overflow-x:hidden;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    background-color:#f8f8ff;
+    color:rgb(19, 19, 30);
+}
+.navbar__container{
+    width:100%;
+}
+.navbar{
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+    padding:0 15px;
+    box-shadow: rgba(0, 0, 0, 0.804) 0px 1px 2px 0px;
+    z-index:1;
+    background-color:#fff;
+}
+.navbar__logo__container{
+    width:110px;
+    height:90%;
+    margin-top:5px;
+
+}
+.navbar__logo{
+    width:100%;
+    height:100%;
+    background-color:#fff;
+}
+.navbar__items{
+    display:flex;
+    gap:20px;
+}
+.navbar__item{
+    border:none;
+    background-color:#fff;
+}
+.navbar__container__others{
+    width:100%;
+    height:200px;
+    margin-top:25px;
+   padding-bottom:5px;
+   gap:5px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    background-color:50%#F9F9F9 40% #f8f8f8;
+    opacity:0.7;
+    background-color:rgb(249, 223, 191);
+}
+.navbar__container__others__item{
+    margin:5px 5px;
+    font-size:0.7em;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.decoration__items{
+    width:35px;
+    height:35px;
+    margin-bottom:20px;
+
+}
+.decoration__items__description{
+    font-weight:10;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.decoration__items__image{
+    width:100%;
+    height:100%;
+}
+.header__banner__container{
+    width:100%;
+    height:150px;
+    background-color:white;
+    margin-bottom:100px;
+    margin-top:20px;
+}
+.header__banner{
+    width:100%;
+    height:100%;
+}
+.container__description{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:20px 0 20px 0;
+}
+.description__text{
+    font-size:2.4em;
+    font-weight:80;
+    word-spacing:0.01em;
+
+}
+
+/* top items */
+.top__items{
+    width:100%;
+    position:relative;
+    /* padding:0 15px; */
+    
+}
+.top__items__background{
+    position:absolute;
+    width:100%;
+    height:670px;
+    background-color:bisque;
+    transform:skewY(-5deg);
+    z-index:-3;
+    border:4px Wheat;
+}
+.top__items__array1{
+    display:flex;
+    justify-content:space-evenly;
+    /* flex-wrap:wrap; */
+    gap:39px;
+    padding:15px;
+    align-items:center;
+    margin:20px 0;
+}
+.top__items__array{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly; 
+    flex-wrap:wrap;
+    gap:39px;
+    padding:15px;
+    align-items:center;
+    margin:20px 0;
+    margin-bottom:30px;
+}
+.top__item__desctiption{
+    text-align:center;
+}
+.image__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.image__container1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h5{
+    text-align:center;
+    word-spacing:3px;
+    font-weight:70;
+}
+.item__image{
+    width:83px;
+    height:85px;
+    margin-top:40px;
+    border:10px double #fff;
+}
+.top__item__image{
+    width:100%;
+    height:100%;
+    
+}
+.item__image1{
+    width:90px;
+    height:90px;
+    
+}
+.statement{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:20px 0 40px 0;
+}
+.statement__text{
+    font-size:2.4em;
+    font-weight:80;
+    word-spacing:0.01em;
+
+}
+
+/*Grid   */
+.grid__container{
+    padding:0 15px;
+    display:flex;
+    flex-direction:column;
+}
+.grid__row__1{
+    display:flex;
+    width:100%;
+    height:150px;
+}
+.grid__row__2{
+    display:flex;
+
+    width:100%;
+    height:150px;
+}
+.grid__row__1__image__container,.grid__row__2__image__container{
+    width:100%;
+    height:100%;
+}
+
+.grid__row__1__image,.grid__row__2__image
+{
+    width:100%;
+    height:100%;
+}
+.grid__text__1,.grid__text__2{
+    width:100%;
+    height:100%;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+    padding-top:40px;
+    align-items:center;
+}
+.grid__text__1,.grid__text__2{
+    font-size:1.09em;
+}
+.grid__box{
+    margin-bottom:30px;
+    background-color:#fff;
+    z-index:2;
+}
+
+/* new products */
+
+.new__products{
+    width:100%;
+    height:600px;
+    background-color:#fff;
+    margin:70px 0;
+    text-align:center;
+    padding-top:40px;
+}
+.product__container{
+    width:100%;
+    height:450px;
+    padding:30px;
+}
+.product__image{
+    width:100%;
+    height:100%;
+}
