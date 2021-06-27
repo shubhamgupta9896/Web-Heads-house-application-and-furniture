@@ -108,10 +108,19 @@ body{
     /* padding:0 15px; */
     
 }
-.top__items__background{
+.top__items__background1{
     position:absolute;
     width:100%;
     height:670px;
+    background-color:bisque;
+    transform:skewY(-5deg);
+    z-index:-3;
+    border:4px Wheat;
+}
+.top__items__background2{
+    position:absolute;
+    width:100%;
+    height:460px;
     background-color:bisque;
     transform:skewY(-5deg);
     z-index:-3;
@@ -247,4 +256,227 @@ h5{
 .product__image{
     width:100%;
     height:100%;
+}
+.comment{
+    position:relative;
+    width:100%;
+    height:300px;
+    /* background-image:url("https://p7.hiclipart.com/preview/653/344/18/quotation-marks-in-english-art-block-quotation-quotation.jpg") ; */
+    background-size:cover;
+}
+.comment__background{
+    width:100%;
+    height:100%;
+    filter:blur(2px);
+
+}
+.comment__text{
+    position:absolute;
+    top:40%;
+    font-size:3em;
+    text-align:center;
+}
+
+/* about */
+.about{
+    width:100%;
+    height:510px;
+    background-color:#fff;
+    display:flex;
+
+    flex-direction:column;
+    padding-left:15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.about__heading{
+    margin:40px 0;
+    display:flex;
+    word-spacing: 2px;
+}
+.mark{
+    background-color:rgb(246, 174, 87);
+    display:inline;
+    margin:0 10px;
+    width:5px;
+    height:25px;
+}
+.about__text{
+    margin:20px 0 40px 25px;
+    width:80%;
+    line-height:25px;
+}
+.about__heading h1 {
+    font-size:2em;
+}
+.timings{
+    display:flex;
+    margin:40px 0;
+}
+.timings__data{
+    margin:20px 0 20px 25px;
+    width:80%;
+}
+.timings h1 {
+    font-size:2em;
+}
+.partners{
+    width:100%;
+    height:670px;
+    background-color:#fff;
+    display:flex;
+   
+    flex-direction:column;
+    padding-left:15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.list__brands {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    line-height:30px;
+    margin: 20px 0;
+    text-align:left;
+    margin:20px 0 20px 25px;
+    width:80%;
+    font-weight: 40;
+
+}
+
+.contacts{
+    display:flex;
+    margin:20px 0;
+}
+.list__of__details {
+    list-style-type:none;
+    line-height:30px;
+    text-align:left;
+    margin:20px 0;
+    margin:20px 0 20px 25px;
+    width:80%;
+    font-weight: 40;
+}
+.footer{
+    border-radius:4px;
+    width:100%;
+    height:150px;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.logo__app{
+    display:flex;
+    padding-left:15px;
+    padding-top:15px;
+    gap:15px;
+}
+.footer__text{ text-align:right;
+margin-right:5px;
+margin-bottom:5px;}
+
+
+@media (min-width:768px){
+    .navbar__container__others{
+        justify-content:space-evenly;
+        gap:30px;
+        height:350px;
+        margin-top:0;
+    }
+    .decoration__items{
+        width:50px;
+        height:40px;
+    }
+    .header__banner__container{
+        height:250px;
+    }
+    .container__description{
+        height:50px;
+    }
+    .description__text{
+        font-size:60px;
+    }
+    .top__items{
+        height:1200px;
+        /* background-color:#fff; */
+    }
+    .top__items__background1{
+        z-index:-0.5;
+        height:750px;
+    }
+    .top__items__background2{
+        z-index:-0.5;
+    }
+    .top__item__description{
+        font-size:2em;
+        font-weight:100;
+        /* margin-bottom:20px; */
+        line-height: 25px;
+    }
+    .image__container1{
+        justify-content:space-between;
+        width:220px;
+        height:250px;
+    }
+    .image__container{
+        justify-content:space-evenly;
+        width:220px;
+        height:250px;
+    }
+    .item__image{
+        width:150px;
+        height:150px;
+        border-radius:10px;
+        border:none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .top__items__array1{
+        margin:40px 0;
+        height:500px;
+    }
+    .item{
+        justify-content: space-evenly;
+        width:240px;
+        height:300px;
+    }
+    .top__items__array{
+        margin-bottom:70px;
+        /* background-color:#fff; */
+
+    }
+    .top__item__image:hover{
+      z-index:5;
+      border:5px solid black;
+    }
+    .top__item__image{
+        border-radius:10px;
+        transform:scale(1.3,1.3);
+        
+    }
+    /* grid container */
+    .grid__Container{
+        margin:100px 0;
+    }
+    .statement{
+        font-size:25px;
+    }
+    .grid__row__1,.grid__row__2{
+        height:200px;
+    }
+    .grid__row__1__image__Container{
+        width:50%;
+    }
+    .comment{
+        height:300px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .comment__text p{
+        font-size:50px;
+    }
+    .about__heading{
+        
+    }
 }
